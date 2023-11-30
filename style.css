@@ -72,6 +72,8 @@ a {
 		grid-template-columns: 1fr;
 		padding: 3rem;
 		gap: 7rem;
+		transform: translate(-50%, -50%);
+		overflow: hidden;
 	}
 }
 .profile {
@@ -141,7 +143,6 @@ a {
 		flex-direction: column;
 	}
 }
-
 /* Expertise */
 .skills_list {
 	margin-top: 1rem;
@@ -201,7 +202,12 @@ a {
 	display: flex;
 	justify-content:end;
 }
-
+img{
+	transform-origin: center center;
+	object-fit: cover;
+	height: 100%;
+	width: 100%;
+}
 hr {
 	grid-column: 1/-1;
 	width: 80%;
