@@ -202,6 +202,7 @@ a {
 	display: flex;
 	justify-content:end;
 }
+
 img{
 	transform-origin: center center;
 	object-fit: cover;
